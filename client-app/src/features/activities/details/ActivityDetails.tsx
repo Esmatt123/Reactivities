@@ -8,6 +8,11 @@ interface Props {
     openForm: (id: string) => void;
 }
 
+/**
+ * ActivityDetails: This is the small box to the right
+ * 
+ */
+
 export default function ActivityDetails({activity, cancelSelectActivity, openForm}: Props){
     return (
         <Card>
